@@ -1,0 +1,11 @@
+A. CORE PRIMITIVES
+•	Tái hiện wireframe bằng View, Text, Image, TextInput và ScrollView; không để nội dung tràn hoặc cuộn ngang ngoài ý muốn.
+•	Tách tối thiểu 3 component có ý nghĩa, ví dụ Header, Avatar, InfoRow, SearchField hoặc ActionButton.
+•	TextInput phải có value, onChangeText, placeholder; Image có kích thước rõ ràng và không bị méo; ScrollView hoạt động trên màn hình hẹp.
+B. INTERACTION
+•	Tạo ít nhất 2 hành động bằng Pressable và có trạng thái bình thường, đang nhấn, vô hiệu hóa (khi phù hợp).
+•	Phản hồi khi nhấn phải nhìn thấy được; không chỉ dựa vào màu. Vùng chạm tối thiểu khoảng 48 × 48 hoặc được mở rộng hợp lý bằng padding/hitSlop.
+•	Khai báo accessibilityRole, accessibilityLabel và accessibilityState; nhãn phải mô tả mục đích của hành động.
+ 
+YÊU CẦU NỘP
+Hoàn thành khi: Giao diện đúng cấu trúc wireframe, đủ primitives, có tối thiểu 2 Pressable, phản hồi rõ, vùng chạm phù hợp, accessibility đầy đủ và ứng dụng chạy không có lỗi nghiêm trọng.
